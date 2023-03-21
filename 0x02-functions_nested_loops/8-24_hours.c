@@ -3,8 +3,6 @@
 /**
  * jack_bauer - prints every minute of the day of Jack Bauer,
  *  starting from 00:00 to 23:59.
- * @h: integer for hours
- * @m: integer for minutes
  *
  * Return: each minute of the day of Jack
  */
