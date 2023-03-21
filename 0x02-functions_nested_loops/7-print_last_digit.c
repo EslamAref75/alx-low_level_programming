@@ -3,7 +3,6 @@
 /**
  * print_last_digit - prints the last digit of a number.
  * @n: integer to be checked.
- * @last_digit: last digit of the number
  *
  * Return: the absolute value of an integer.
  */
