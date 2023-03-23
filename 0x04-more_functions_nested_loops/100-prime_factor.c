@@ -11,24 +11,31 @@
 int main(void)
 {
 int i;
-long int n;
+long int n, maxPrime;
 
 n = 612852475143;
+maxPrime = -1;
 
+while (n % 2 == 0)
+{
+maxPrime = 2;
+n = n / 2;
+}
 
 for (i = 3; i <= sqrt(n); i = i + 2)
 {
 
 while (n % i == 0)
 {
-
+maxPrime = i;
 n = n / i;
 }
 }
 
 if (n > 2)
-
-printf("%ld ", n);
-
+{
+maxPrime = n;
+printf("%ld ", maxPrime);
+}
 return (0);
 }
