@@ -10,8 +10,8 @@
 
 int main(void)
 {
-
-long int n, maxPrime, i;
+int i;
+long int n, maxPrime;
 
 n = 612852475143;
 maxPrime = -1;
@@ -35,7 +35,7 @@ n = n / i;
 if (n > 2)
 {
 maxPrime = n;
-printf("%ld ", maxPrime);
+printf("%ld\n", maxPrime);
 }
 return (0);
 }
