@@ -10,8 +10,8 @@
 
 int main(void)
 {
-int i;
-long int n, maxPrime;
+
+long int n, maxPrime, i;
 
 n = 612852475143;
 maxPrime = -1;
